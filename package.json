@@ -1,0 +1,27 @@
+{
+  "name": "vanilla-auth",
+  "version": "1.0.0",
+  "description": "Bohdan App Vanilla auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --@mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Bohdan <bogdan.rozumovskiy@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.3",
+    "typescript": "^3.8.2",
+    "typescript-tools": "^0.3.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
